@@ -101,7 +101,9 @@
   </header><!-- End Header -->
 
   <main id="main" data-aos="fade-up">
-    <form  style="border:1px solid #ccc" method="POST" action="http://127.0.0.1:8000/register-user/">
+    <iframe name="dummyframe" id="dummyframe" style="display: none"></iframe>
+
+    <form id="form" style="border:1px solid #ccc" method="POST" action="http://127.0.0.1:8000/register-user/" target="dummyframe">
       <div class="container">
         <h1>Sign Up (User)</h1>
         <p>Please fill in this form to create an account.</p>
@@ -227,6 +229,9 @@
 
   <!---Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+  
+  </script>
 
 </body>
 
