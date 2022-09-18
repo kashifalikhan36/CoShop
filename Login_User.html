@@ -100,14 +100,16 @@
   </header><!-- End Header -->
 
   <main id="main" data-aos="fade-up">
-    <form action="action_page.php" method="post">
+    <iframe name="dummyframe" id="dummyframe" style="display: none"></iframe>
+
+    <form action="http://127.0.0.1:8000/login-user" method="post" target="dummyframe">
       <div class="imgcontainer">
         <h1>Login (User)</h1>
       </div>
 
       <div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
 
         <label for="psw"><b>Password</b></label>
         <input type="password" placeholder="Enter Password" name="psw" required>
