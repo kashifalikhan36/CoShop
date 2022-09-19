@@ -100,19 +100,22 @@
   </header><!-- End Header -->
 
   <main id="main" data-aos="fade-up">
-    <form action="http://127.0.0.1:8000/login-admin" method="post">
+    <iframe name="dummyframe" id="dummyframe" style="display: none"></iframe>
+    <form target="dummyframe" id="myform" action="http://127.0.0.1:8000/login-admin/">
       <div class="imgcontainer">
         <h1>Login (Admin)</h1>
       </div>
 
       <div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Username" name="email" required>
 
         <label for="psw"><b>Password</b></label>
         <input type="password" placeholder="Enter Password" name="psw" required>
         <button type="button" class="cancelbtn">Forget Password</button>
-        <button type="submit">Login</button>
+        <!-- <a href="./panel/index.html"> -->
+        <button type="submit" onClick="window.location.href='./panel/index.html';">Login</button>
+        <!-- <button type="submit" id="postSubmit">Login</button> -->
         <label>
           <input type="checkbox" checked="checked" name="remember"> Remember me
         </label>
@@ -224,6 +227,22 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+//     const thisForm = document.getElementById('myForm');
+//     const btn = document.getElementById('submit');
+//     thisForm.addEventListener('postSubmit', async function (e) {
+//     e.preventDefault();
+//     const formData = new FormData(thisForm).entries()
+//     const response = await fetch('http://127.0.0.1:8000/login-admin/', {
+//         method: 'POST',
+//         headers: { 'Content-Type': 'application/json' },
+//         body: JSON.stringify(Object.fromEntries(formData))
+//     });
+
+//     const result = await response.json();
+//     console.log(result)
+// });
+  </script>
 
 </body>
 
