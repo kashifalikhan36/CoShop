@@ -17,17 +17,23 @@
     <!-- vendor css -->
     <link rel="stylesheet" href="assets/css/admin_style.css">
 
-
+    
 
 </head>
+<style>
+
+</style>
 
 <body class="">
     <!-- [ Pre-loader ] start -->
-    <div class="loader-bg">
+    <div id="preloader">
+        <h4 id="area">Fetching Information and Location</h4>
+    </div>
+    <!-- <div class="loader-bg">
         <div class="loader-track">
             <div class="loader-fill"></div>
         </div>
-    </div>
+    </div> -->
     <!-- [ Pre-loader ] End -->
     <!-- [ navigation menu ] start -->
     <nav class="pcoded-navbar  ">
@@ -1064,6 +1070,12 @@
 
     <!-- custom-chart js -->
     <script src="assets/js/pages/dashboard-main.js"></script>
+    <script>
+        setTimeout(function() {
+  var element = document.getElementById('preloader');
+  element.classList += " hidden";
+}, 1500);
+    </script>
 </body>
 
 </html>
