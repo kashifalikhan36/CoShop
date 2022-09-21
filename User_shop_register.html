@@ -102,7 +102,7 @@
   <main id="main" data-aos="fade-up">
     <iframe name="dummyframe" id="dummyframe" style="display: none"></iframe>
 
-    <form method="POST" action="http://127.0.0.1:8000/register-admin/" style="border:1px solid #ccc" target="dummyframe">
+    <form method="POST" style="border:1px solid #ccc" >
       <div class="container">
         <h1>Shop Registration</h1>
         <p>Please fill in this form Carefully.</p>
@@ -121,10 +121,10 @@
         <input type="text" placeholder="Repeat Contact No." name="contact" required>
 
         <label for="shop_name"><b>Shop name</b></label>
-        <input type="text" placeholder="Enter Shop Naem" name="shop_name" required>
+        <input type="text" placeholder="Enter Shop Name" name="shop_name" required>
 
         <label for="Gst_no"><b>Gst no. (Optional)</b></label>
-        <input type="text" placeholder="Enter Shop Naem" name="shop_name" required>
+        <input type="text" placeholder="Enter Gst Number" name="gst_no" required>
 
         <label for="pics"><b>Shop Photos Along With The Owner Photos.</b></label>
         <input type="file" id="myFile" name="filename">
@@ -140,7 +140,7 @@
         <p>By creating an Shop Pages <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
     
         <div class="clearfix">
-          <button type="submit" onclick="myFunction()" onClick="window.location.href='./register_request.html';" class="signupbtn">Register Now</button>
+          <button type="submit" onclick="myFunction()" class="signupbtn">Register Now</button>
         </div>
         
       </div>
@@ -245,6 +245,7 @@
   <script>
     function myFunction() {
       confirm("Confirm");
+      window.location.href='./register_request.html';
     }
   </script>
   <script src="assets/js/main.js"></script>
