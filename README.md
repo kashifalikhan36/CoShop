@@ -1,5 +1,10 @@
 # CoShop :fire: 🛒
 The Link of our website: https://coshop.ml
+
+![image](https://user-images.githubusercontent.com/65492948/191588450-6d945598-a1a5-42f1-a86a-97fbe95baff5.png)
+![image](https://user-images.githubusercontent.com/65492948/191594329-f2c41fb7-3449-4a55-8ba6-61c125fc5709.png)
+
+
 - CoShop as it names suggest is an exclusive E-commerce Website established to monitor and govern the day-to-day transactions and interactions of customers and shopkeepers. 
 - It acts as a prominent interactive interface between the two most important groups present in the supply chain model i.e., the shopkeepers and their end-customers. Customers are required to register and sellers are required to sell their products through this platform. 
 - What makes it more unique is its revenue model and ability for customers to have easy access to stores near them which are not registered online anywhere else. Here, customers are allowed access to Fast-food restaurants, Interiors shops, Hardware stores, Stationary Shops, Dairy shops and a couple of General stores for purchasing the best quality items of daily consumption.
