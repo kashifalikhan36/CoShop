@@ -142,7 +142,7 @@
     
         <div class="clearfix">
           <button type="button" class="cancelbtn">Forget Password</button>
-          <button type="submit" class="signupbtn">Sign Up</button>
+          <button type="submit" onclick="myFunction()" class="signupbtn">Sign Up</button>
         </div>
         
       </div>
@@ -244,6 +244,11 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Main JS File -->
+  <script>
+    function myFunction() {
+      confirm("Confirm");
+    }
+  </script>
   <script src="assets/js/main.js"></script>
 
 </body>
